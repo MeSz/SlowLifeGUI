@@ -15,7 +15,7 @@ public class Cell extends JButton {
      */
     public Cell() {
 	super(" ");
-	//setFont(new Font("Courier", Font.PLAIN, 12));
+	setFont(new Font("Courier", Font.PLAIN, 12));
 	addActionListener(new CellButtonListener());
     }
 
@@ -24,7 +24,7 @@ public class Cell extends JButton {
      */
     public Cell(boolean alive) {
 	super(" ");
-	//setFont(new Font("Courier", Font.PLAIN, 12));
+	setFont(new Font("Courier", Font.PLAIN, 12));
 	addActionListener(new CellButtonListener());
 	setAlive(alive);
     }

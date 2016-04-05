@@ -77,7 +77,7 @@ public class CellTest {
      *      toString() method operate in the same expected manner.
      */
     @Test
-    public void testToStringOldAndNew_Three() {
+    public void testToStringNewAndOld_Three() {
         System.out.println("toStringNewAndOld_Three: testing to make sure the old and new methods "
                 + "return the same value for true/false...");
         

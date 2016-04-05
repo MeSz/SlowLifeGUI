@@ -141,6 +141,7 @@ public class MainPanelTest {
         // make sure all cells are the same
         assertEquals(oldPanel.toString(), newPanel.toString());
         
+        // cleanup
         oldThread.stop();
         newThread.stop();
         
@@ -179,11 +180,13 @@ public class MainPanelTest {
         // make sure all cells are the same
         assertEquals(oldPanel.toString(), newPanel.toString());
         
+        // cleanup
         oldThread.stop();
         newThread.stop();
         
         System.out.println("runContinuousNewAndOld_Two: Success!");
     }
+    
     /**
      * Pinning test to make sure the optimized and original
      *      runContinous() method operate in the same expected manner.
@@ -219,6 +222,7 @@ public class MainPanelTest {
         // make sure all cells are the same
         assertEquals(oldPanel.toString(), newPanel.toString());
         
+        // cleanup
         oldThread.stop();
         newThread.stop();
         

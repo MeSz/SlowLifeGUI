@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/jmeszar/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/GameOfLife/test/SlowLifeGUI/MainPanelTest.java</file>
-            <file>file:/C:/Users/jmeszar/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/GameOfLife/src/SlowLifeGUI/Cell.java</file>
-            <file>file:/C:/Users/jmeszar/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/GameOfLife/src/SlowLifeGUI/MainPanel.java</file>
-            <file>file:/C:/Users/jmeszar/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/GameOfLife/test/SlowLifeGUI/CellTest.java</file>
+            <file>file:/C:/Users/Malsby/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/SlowLifeGUI/GameOfLife/test/SlowLifeGUI/CellTest.java</file>
+            <file>file:/C:/Users/Malsby/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/SlowLifeGUI/GameOfLife/src/SlowLifeGUI/MainPanel.java</file>
+            <file>file:/C:/Users/Malsby/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/SlowLifeGUI/GameOfLife/test/SlowLifeGUI/MainPanelTest.java</file>
+            <file>file:/C:/Users/Malsby/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/SlowLifeGUI/GameOfLife/src/SlowLifeGUI/Cell.java</file>
+            <file>file:/C:/Users/Malsby/Dropbox/CS1632/Projects/CS1632_Project5_ConwaysGameOfLife/SlowLifeGUI/GameOfLife/src/SlowLifeGUI/GameOfLife.java</file>
         </group>
     </open-files>
 </project-private>

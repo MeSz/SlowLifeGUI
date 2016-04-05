@@ -216,9 +216,28 @@ public class MainPanel extends JPanel {
     }
 
     /**
-     * Convert the Main Panel into a String which can be written to a file.
+     * Optimized version with StringBuilder()
      */
     public String toString() {
+
+        // Loop through all of the cells, and
+        // if they are alive, add an "X" to
+        // the String, if dead, a ".".
+        StringBuilder toWrite = new StringBuilder();
+
+        for (int j = 0; j < _size; j++) {
+            for (int k = 0; k < _size; k++) {
+                toWrite.append(_cells[j][k].toString());
+            }
+            toWrite.append("\n");
+        }
+        return toWrite.toString();
+    }
+    
+    /**
+     * Convert the Main Panel into a String which can be written to a file.
+     */
+    public String toString_OLD() {
 
         // Loop through all of the cells, and
         // if they are alive, add an "X" to
@@ -232,7 +251,6 @@ public class MainPanel extends JPanel {
                 } else {
                     toWrite += _cells[j][k].toString();
                 }
-
             }
             toWrite += "\n";
         }
@@ -256,11 +274,6 @@ public class MainPanel extends JPanel {
             System.out.println("Running...");
             backup();
             calculateNextIteration();
-            
-            if (_backupCells.toString().equals(_cells.toString())) {
-                System.out.println("HADSHFASHDFHASHDFHASDHFHASHDFHADS");
-                stop();
-            }
         }
     }
 
